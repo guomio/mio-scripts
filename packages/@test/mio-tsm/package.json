@@ -16,7 +16,7 @@
   "author": "郭秀峰",
   "license": "ISC",
   "dependencies": {
-    "@guomio/mio-tsm": "0.0.1",
+    "@guomio/mio-tsm": "0.0.2",
     "class-transformer": "^0.4.0",
     "class-validator": "^0.13.1",
     "kcors": "^2.2.2",

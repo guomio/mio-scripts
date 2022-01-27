@@ -1,6 +1,6 @@
 {
   "name": "@guomio/mio-tsm",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "types": "./lib/mio-tsm.d.ts",
@@ -18,7 +18,7 @@
   "license": "ISC",
   "dependencies": {
     "@guomio/mio-eslint-config": "0.0.1",
-    "@guomio/mio-scripts-utils": "0.0.1",
+    "@guomio/mio-scripts-utils": "0.0.2",
     "@jest/types": "^27.0.2",
     "@types/jest": "^26.0.23",
     "@types/node": "^15.12.0",

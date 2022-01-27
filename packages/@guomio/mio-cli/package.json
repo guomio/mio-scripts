@@ -1,6 +1,6 @@
 {
   "name": "@guomio/mio-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "index.js",
   "types": "./lib/mio-cli.d.ts",
@@ -19,7 +19,7 @@
   "dependencies": {
     "@babel/code-frame": "^7.16.0",
     "@guomio/mio-eslint-config": "0.0.1",
-    "@guomio/mio-scripts-utils": "0.0.1",
+    "@guomio/mio-scripts-utils": "0.0.2",
     "@types/jest": "^26.0.23",
     "@types/node": "^15.12.0",
     "@typescript-eslint/eslint-plugin": "^5.7.0",
