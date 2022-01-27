@@ -31,6 +31,18 @@ commander
   .action(require('../scripts/test'));
 
 commander
+  .command('start')
+  .option('-e, --env <mode>', `Load .{mode}.env`)
+  .description(chalk.cyan('Run your project with pm2'))
+  .action(require('../scripts/start'));
+
+commander
+  .command('stop')
+  .option('-e, --env <mode>', `Load .{mode}.env`)
+  .description(chalk.cyan('Stop your project with pm2'))
+  .action(require('../scripts/stop'));
+
+commander
   .command('lint')
   .option('-f, --fix', `lint fix`)
   .description(chalk.cyan('Run eslint with Prettier'))
@@ -38,9 +50,7 @@ commander
 
 commander.on('--help', () => {
   console.log();
-  console.log(
-    `  Run ${chalk.yellow(`mio-cli <command> --help`)} for detailed usage of given command.`,
-  );
+  console.log(`  Run ${chalk.yellow(`tsm <command> --help`)} for detailed usage of given command.`);
   console.log();
 });
 

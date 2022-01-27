@@ -1,5 +1,5 @@
 {
-  "name": "@guomio/create-mio-app",
+  "name": "@guomio/create-tsm-app",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -7,10 +7,13 @@
     "index.js",
     "template"
   ],
-  "bin": {
-    "create-mio-app": "./index.js"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "guomio <guoxfcn@qq.com>",
+  "bin": {
+    "create-tsm-app": "./index.js"
+  },
+  "author": "郭秀峰",
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.1",

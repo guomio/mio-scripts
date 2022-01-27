@@ -1,11 +1,11 @@
 {
-  "name": "@guomio/mio-cli",
-  "version": "0.0.2",
+  "name": "@guomio/mio-tsm",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
-  "types": "./lib/mio-cli.d.ts",
+  "types": "./lib/mio-tsm.d.ts",
   "bin": {
-    "mio-cli": "./bin/mio-cli.js"
+    "mio-tsm": "./bin/mio-tsm.js"
   },
   "files": [
     "bin",
@@ -17,28 +17,47 @@
   "author": "郭秀峰",
   "license": "ISC",
   "dependencies": {
-    "@babel/code-frame": "^7.16.0",
     "@guomio/mio-eslint-config": "0.0.1",
     "@guomio/mio-scripts-utils": "0.0.1",
+    "@jest/types": "^27.0.2",
     "@types/jest": "^26.0.23",
     "@types/node": "^15.12.0",
     "@typescript-eslint/eslint-plugin": "^5.7.0",
     "@typescript-eslint/parser": "^5.7.0",
-    "dayjs": "^1.10.7",
+    "case-sensitive-paths-webpack-plugin": "^2.4.0",
+    "customize-cra": "^1.0.0",
     "dotenv": "^10.0.0",
     "dotenv-expand": "^5.1.0",
     "esbuild": "^0.12.6",
     "esbuild-jest": "^0.5.0",
+    "esbuild-loader": "^2.15.1",
     "eslint": "^7.27.0",
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-jest": "^24.3.6",
+    "eslint-webpack-plugin": "^2.5.4",
     "fs-extra": "^10.0.0",
-    "jest": "27.3.1",
-    "jest-circus": "27.3.1",
-    "jest-resolve": "27.3.1",
-    "jest-watch-typeahead": "1.0.0",
+    "jest": "^27.0.4",
+    "jest-circus": "^27.0.4",
+    "jest-resolve": "^27.0.4",
+    "jest-watch-typeahead": "^0.6.4",
     "nodemon": "^2.0.7",
     "resolve": "^1.20.0",
+    "terser-webpack-plugin": "^5.2.4",
+    "ts-loader": "^9.2.6",
+    "webpack": "^5.61.0",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "peerDependencies": {
+    "pm2": "^4.5.6 || ^5",
+    "typescript": "^3.2.1 || ^4"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "pm2": "^5.0.0",
     "typescript": "^4.5.4"
   },
   "publishConfig": {

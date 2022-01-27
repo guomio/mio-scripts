@@ -1,0 +1,14 @@
+{
+  "name": "@guomio/mio-eslint-config",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "author": "guomio <guoxfcn@qq.com>",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  }
+}
