@@ -5,7 +5,7 @@ const semver = require('semver');
 const spawn = require('cross-spawn');
 const execSync = require('child_process').execSync;
 
-const Packages = globby.sync('./packages/@bguomio/*/package.json');
+const Packages = globby.sync('./packages/@guomio/*/package.json');
 const TestPakcages = globby.sync('./packages/@test/*/package.json');
 
 /**
