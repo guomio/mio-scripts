@@ -7,12 +7,11 @@
     "build": "mio-scripts build"
   },
   "dependencies": {
-    "element-plus": "^1.0.1-beta.19",
-    "vue": "3.0.5",
+    "vue": "3.2.29",
     "vue-class-component": "^8.0.0-0"
   },
   "devDependencies": {
-    "@vue/compiler-sfc": "^3.0.5",
+    "@vue/compiler-sfc": "^3.2.29",
     "@guomio/mio-scripts": "0.0.1"
   },
   "browserslist": {
