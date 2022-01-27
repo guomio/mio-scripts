@@ -1,0 +1,23 @@
+{
+  "name": "@guomio/mio-scripts-utils",
+  "version": "0.0.1",
+  "description": "Utils for mio-scripts.",
+  "license": "MIT",
+  "author": "guomio <guoxfcn@qq.com>",
+  "engines": {
+    "node": "^10.12.0 || >=12.0.0"
+  },
+  "dependencies": {
+    "archiver": "^5.1.0",
+    "axios": "^0.21.1",
+    "chalk": "^4.1.0",
+    "commander": "^6.2.1",
+    "cross-spawn": "^7.0.3",
+    "fs-extra": "^9.0.1",
+    "globby": "^11.0.1",
+    "inquirer": "^7.3.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

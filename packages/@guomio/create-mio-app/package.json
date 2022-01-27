@@ -1,0 +1,22 @@
+{
+  "name": "@guomio/create-mio-app",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "template"
+  ],
+  "bin": {
+    "create-mio-app": "./index.js"
+  },
+  "author": "郭秀峰",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "commander": "^7.2.0",
+    "cross-spawn": "^7.0.3",
+    "fs-extra": "^10.0.0",
+    "prompts": "^2.4.1"
+  }
+}

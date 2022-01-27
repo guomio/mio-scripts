@@ -1,0 +1,43 @@
+{
+  "name": "mio-react",
+  "version": "0.1.0",
+  "description": "mio-scripts-react",
+  "private": true,
+  "dependencies": {
+    "@guomio/mio-scripts": "0.0.1",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@types/react": "^16.9.53",
+    "@types/react-dom": "^16.9.8",
+    "axios": "^0.21.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "mio-scripts start",
+    "build": "mio-scripts build",
+    "test": "mio-scripts test"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "publishConfig": {
+    "access": "restricted"
+  }
+}

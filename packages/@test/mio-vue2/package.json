@@ -1,0 +1,35 @@
+{
+  "name": "mio-vue2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "mio-scripts start",
+    "build": "mio-scripts build"
+  },
+  "dependencies": {
+    "element-ui": "^2.14.1",
+    "view-design": "^4.4.0",
+    "vue": "^2.6.11",
+    "vue-class-component": "^7.2.3",
+    "vue-property-decorator": "^8.4.2"
+  },
+  "devDependencies": {
+    "@guomio/mio-scripts": "0.0.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "publishConfig": {
+    "access": "restricted"
+  }
+}
